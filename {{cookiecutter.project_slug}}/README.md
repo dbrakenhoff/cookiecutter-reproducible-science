@@ -13,17 +13,18 @@ Project Organization
     ├── bin
     ├── config
     ├── data
-    │   ├── external
-    │   ├── interim
-    │   ├── processed
-    │   └── raw
+    │   ├── 1-external
+    │   ├── 2-interim
+    │   ├── 3-processed
+    │   └── 4-output
     ├── docs
     ├── notebooks
     ├── reports
     │   └── figures
     └── src
-        ├── data
-        ├── external
-        ├── models
-        ├── tools
-        └── visualization
+        ├── 0-setup
+        ├── 1-dataprep
+        ├── 2-model
+        ├── 3-analysis
+        ├── 4-visualization
+        └── tools
